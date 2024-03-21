@@ -57,9 +57,9 @@ export default function Allstud() {
     return (
         <div className='container mt-5'>
             <div className='d-flex'>
-                <h4>All Student Information</h4>
+                <h4>All Report Information</h4>
                 <div class="ms-auto w-50">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search Student" 
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search Report" 
                         onChange={(e)=>searchStud(e.target.value)}
                     />
                 </div>
